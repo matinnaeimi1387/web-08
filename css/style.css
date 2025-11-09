@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Vazirmatn;
+    background: rgb(208, 184, 109);
+}
+body {
+  background: url(../images/pngtree-carbon-fiber-material-black-regular-pattern-background-image_884488.jpg);
+background-size: cover;
+}
+.bg-mine {
+  background-color: rgb(187, 187, 187);
+}
+ul {
+    list-style-type: none;
+    padding-right: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+#header {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 10px 20px;
+
+}
+
+/* logo */
+.logo-link {
+    line-height: 0;
+}
+.logo-img {
+    width: 55px;
+}
+
+.navbar-list {
+    display: flex;
+    gap: 32px;
+}
+.header-contact-link {
+    background: darkslateblue;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 10px;
+}
+.contact-icon {
+    margin-right: 5px;
+}
+.border {
+  border-radius: 10px;
+}
